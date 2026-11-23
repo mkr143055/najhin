@@ -1,4 +1,12 @@
-window.NAJHIN_DATA = {
+{
+  "site": {
+    "name": "Najhin.ma",
+    "tagline": "Apprendre · Pratiquer · Réussir",
+    "language": "fr",
+    "description": "Ressources de mathématiques pour le lycée qualifiant au Maroc.",
+    "logo": "assets/images/logo.png",
+    "accent": "#08b86a"
+  },
   "levels": [
     {
       "id": "tronc",
@@ -55,9 +63,6 @@ window.NAJHIN_DATA = {
         "Équations quadratiques",
         "Discussion des solutions"
       ],
-      "pdf": "assets/pdfs/cours/inequations.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "inequations-exercice-1",
@@ -70,7 +75,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/inequations-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/inequations-exercice-1-corrige.pdf",
           "statementImage": "assets/images/inequations-exercice-1-enonce.png",
-          "correctionImage": "assets/images/inequations-exercice-1-corrige.png"
+          "correctionImage": "assets/images/inequations-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/inequations-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/inequations-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/inequations-exercice-1-enonce.png",
+            "correctionImage": "assets/images/inequations-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "inequations-exercice-2",
@@ -83,9 +94,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/inequations-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/inequations-exercice-2-corrige.pdf",
           "statementImage": "assets/images/inequations-exercice-2-enonce.png",
-          "correctionImage": "assets/images/inequations-exercice-2-corrige.png"
+          "correctionImage": "assets/images/inequations-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/inequations-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/inequations-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/inequations-exercice-2-enonce.png",
+            "correctionImage": "assets/images/inequations-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/inequations.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "functions",
@@ -102,9 +123,6 @@ window.NAJHIN_DATA = {
         "Fonction racine carrée",
         "Représentation graphique"
       ],
-      "pdf": "assets/pdfs/cours/functions.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "functions-exercice-1",
@@ -117,7 +135,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/functions-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/functions-exercice-1-corrige.pdf",
           "statementImage": "assets/images/functions-exercice-1-enonce.png",
-          "correctionImage": "assets/images/functions-exercice-1-corrige.png"
+          "correctionImage": "assets/images/functions-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/functions-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/functions-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/functions-exercice-1-enonce.png",
+            "correctionImage": "assets/images/functions-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "functions-exercice-2",
@@ -130,9 +154,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/functions-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/functions-exercice-2-corrige.pdf",
           "statementImage": "assets/images/functions-exercice-2-enonce.png",
-          "correctionImage": "assets/images/functions-exercice-2-corrige.png"
+          "correctionImage": "assets/images/functions-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/functions-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/functions-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/functions-exercice-2-enonce.png",
+            "correctionImage": "assets/images/functions-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/functions.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "geometry",
@@ -149,9 +183,6 @@ window.NAJHIN_DATA = {
         "Transformations géométriques",
         "Symétrie axiale"
       ],
-      "pdf": "assets/pdfs/cours/geometry.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "geometry-exercice-1",
@@ -164,7 +195,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/geometry-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/geometry-exercice-1-corrige.pdf",
           "statementImage": "assets/images/geometry-exercice-1-enonce.png",
-          "correctionImage": "assets/images/geometry-exercice-1-corrige.png"
+          "correctionImage": "assets/images/geometry-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/geometry-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/geometry-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/geometry-exercice-1-enonce.png",
+            "correctionImage": "assets/images/geometry-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "geometry-exercice-2",
@@ -177,9 +214,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/geometry-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/geometry-exercice-2-corrige.pdf",
           "statementImage": "assets/images/geometry-exercice-2-enonce.png",
-          "correctionImage": "assets/images/geometry-exercice-2-corrige.png"
+          "correctionImage": "assets/images/geometry-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/geometry-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/geometry-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/geometry-exercice-2-enonce.png",
+            "correctionImage": "assets/images/geometry-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/geometry.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "arithmetic",
@@ -196,9 +243,6 @@ window.NAJHIN_DATA = {
         "Nombres premiers",
         "PGCD et PPCM"
       ],
-      "pdf": "assets/pdfs/cours/arithmetic.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "arithmetic-exercice-1",
@@ -211,7 +255,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-1-corrige.pdf",
           "statementImage": "assets/images/arithmetic-exercice-1-enonce.png",
-          "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png"
+          "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/arithmetic-exercice-1-enonce.png",
+            "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "arithmetic-exercice-2",
@@ -224,9 +274,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-2-corrige.pdf",
           "statementImage": "assets/images/arithmetic-exercice-2-enonce.png",
-          "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png"
+          "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/arithmetic-exercice-2-enonce.png",
+            "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/arithmetic.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "derivation",
@@ -244,9 +304,6 @@ window.NAJHIN_DATA = {
         "Règles de dérivation",
         "Étude complète"
       ],
-      "pdf": "assets/pdfs/cours/derivation.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "derivation-exercice-1",
@@ -259,7 +316,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/derivation-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/derivation-exercice-1-corrige.pdf",
           "statementImage": "assets/images/derivation-exercice-1-enonce.png",
-          "correctionImage": "assets/images/derivation-exercice-1-corrige.png"
+          "correctionImage": "assets/images/derivation-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/derivation-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/derivation-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/derivation-exercice-1-enonce.png",
+            "correctionImage": "assets/images/derivation-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "derivation-exercice-2",
@@ -272,9 +335,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/derivation-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/derivation-exercice-2-corrige.pdf",
           "statementImage": "assets/images/derivation-exercice-2-enonce.png",
-          "correctionImage": "assets/images/derivation-exercice-2-corrige.png"
+          "correctionImage": "assets/images/derivation-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/derivation-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/derivation-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/derivation-exercice-2-enonce.png",
+            "correctionImage": "assets/images/derivation-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/derivation.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "limits",
@@ -292,9 +365,6 @@ window.NAJHIN_DATA = {
         "Limites infinies",
         "Continuité"
       ],
-      "pdf": "assets/pdfs/cours/limits.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "limits-exercice-1",
@@ -307,7 +377,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/limits-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/limits-exercice-1-corrige.pdf",
           "statementImage": "assets/images/limits-exercice-1-enonce.png",
-          "correctionImage": "assets/images/limits-exercice-1-corrige.png"
+          "correctionImage": "assets/images/limits-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/limits-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/limits-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/limits-exercice-1-enonce.png",
+            "correctionImage": "assets/images/limits-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "limits-exercice-2",
@@ -320,9 +396,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/limits-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/limits-exercice-2-corrige.pdf",
           "statementImage": "assets/images/limits-exercice-2-enonce.png",
-          "correctionImage": "assets/images/limits-exercice-2-corrige.png"
+          "correctionImage": "assets/images/limits-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/limits-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/limits-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/limits-exercice-2-enonce.png",
+            "correctionImage": "assets/images/limits-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/limits.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "sequences",
@@ -340,9 +426,6 @@ window.NAJHIN_DATA = {
         "Suites géométriques",
         "Termes des suites"
       ],
-      "pdf": "assets/pdfs/cours/sequences.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "sequences-exercice-1",
@@ -355,7 +438,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/sequences-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/sequences-exercice-1-corrige.pdf",
           "statementImage": "assets/images/sequences-exercice-1-enonce.png",
-          "correctionImage": "assets/images/sequences-exercice-1-corrige.png"
+          "correctionImage": "assets/images/sequences-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/sequences-exercice-1-enonce.png",
+            "correctionImage": "assets/images/sequences-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "sequences-exercice-2",
@@ -368,9 +457,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/sequences-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/sequences-exercice-2-corrige.pdf",
           "statementImage": "assets/images/sequences-exercice-2-enonce.png",
-          "correctionImage": "assets/images/sequences-exercice-2-corrige.png"
+          "correctionImage": "assets/images/sequences-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/sequences-exercice-2-enonce.png",
+            "correctionImage": "assets/images/sequences-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/sequences.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "probability",
@@ -388,9 +487,6 @@ window.NAJHIN_DATA = {
         "Probabilité conditionnelle",
         "Indépendance"
       ],
-      "pdf": "assets/pdfs/cours/probability.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "probability-exercice-1",
@@ -403,7 +499,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/probability-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/probability-exercice-1-corrige.pdf",
           "statementImage": "assets/images/probability-exercice-1-enonce.png",
-          "correctionImage": "assets/images/probability-exercice-1-corrige.png"
+          "correctionImage": "assets/images/probability-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/probability-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/probability-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/probability-exercice-1-enonce.png",
+            "correctionImage": "assets/images/probability-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "probability-exercice-2",
@@ -416,9 +518,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/probability-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/probability-exercice-2-corrige.pdf",
           "statementImage": "assets/images/probability-exercice-2-enonce.png",
-          "correctionImage": "assets/images/probability-exercice-2-corrige.png"
+          "correctionImage": "assets/images/probability-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/probability-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/probability-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/probability-exercice-2-enonce.png",
+            "correctionImage": "assets/images/probability-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/probability.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "logarithms",
@@ -436,9 +548,6 @@ window.NAJHIN_DATA = {
         "Équations logarithmiques",
         "Inéquations logarithmiques"
       ],
-      "pdf": "assets/pdfs/cours/logarithms.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "logarithms-exercice-1",
@@ -451,7 +560,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/logarithms-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-1-corrige.pdf",
           "statementImage": "assets/images/logarithms-exercice-1-enonce.png",
-          "correctionImage": "assets/images/logarithms-exercice-1-corrige.png"
+          "correctionImage": "assets/images/logarithms-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/logarithms-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/logarithms-exercice-1-enonce.png",
+            "correctionImage": "assets/images/logarithms-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "logarithms-exercice-2",
@@ -464,9 +579,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/logarithms-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-2-corrige.pdf",
           "statementImage": "assets/images/logarithms-exercice-2-enonce.png",
-          "correctionImage": "assets/images/logarithms-exercice-2-corrige.png"
+          "correctionImage": "assets/images/logarithms-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/logarithms-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/logarithms-exercice-2-enonce.png",
+            "correctionImage": "assets/images/logarithms-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/logarithms.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "exponential",
@@ -484,9 +609,6 @@ window.NAJHIN_DATA = {
         "Équations exponentielles",
         "Croissances comparées"
       ],
-      "pdf": "assets/pdfs/cours/exponential.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "exponential-exercice-1",
@@ -499,7 +621,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/exponential-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/exponential-exercice-1-corrige.pdf",
           "statementImage": "assets/images/exponential-exercice-1-enonce.png",
-          "correctionImage": "assets/images/exponential-exercice-1-corrige.png"
+          "correctionImage": "assets/images/exponential-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/exponential-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/exponential-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/exponential-exercice-1-enonce.png",
+            "correctionImage": "assets/images/exponential-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "exponential-exercice-2",
@@ -512,9 +640,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/exponential-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/exponential-exercice-2-corrige.pdf",
           "statementImage": "assets/images/exponential-exercice-2-enonce.png",
-          "correctionImage": "assets/images/exponential-exercice-2-corrige.png"
+          "correctionImage": "assets/images/exponential-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/exponential-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/exponential-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/exponential-exercice-2-enonce.png",
+            "correctionImage": "assets/images/exponential-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/exponential.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "complex",
@@ -532,9 +670,6 @@ window.NAJHIN_DATA = {
         "Forme trigonométrique",
         "Représentation géométrique"
       ],
-      "pdf": "assets/pdfs/cours/complex.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "complex-exercice-1",
@@ -547,7 +682,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/complex-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/complex-exercice-1-corrige.pdf",
           "statementImage": "assets/images/complex-exercice-1-enonce.png",
-          "correctionImage": "assets/images/complex-exercice-1-corrige.png"
+          "correctionImage": "assets/images/complex-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/complex-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/complex-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/complex-exercice-1-enonce.png",
+            "correctionImage": "assets/images/complex-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "complex-exercice-2",
@@ -560,9 +701,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/complex-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/complex-exercice-2-corrige.pdf",
           "statementImage": "assets/images/complex-exercice-2-enonce.png",
-          "correctionImage": "assets/images/complex-exercice-2-corrige.png"
+          "correctionImage": "assets/images/complex-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/complex-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/complex-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/complex-exercice-2-enonce.png",
+            "correctionImage": "assets/images/complex-exercice-2-corrige.png"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/complex.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     },
     {
       "slug": "sequences-logic",
@@ -580,9 +731,6 @@ window.NAJHIN_DATA = {
         "Raisonnement par récurrence",
         "Quantificateurs"
       ],
-      "pdf": "assets/pdfs/cours/sequences-logic.pdf",
-      "video": "assets/videos/cours-demo.mp4",
-      "sample": true,
       "exercises": [
         {
           "slug": "sequences-logic-exercice-1",
@@ -595,7 +743,13 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-corrige.pdf",
           "statementImage": "assets/images/sequences-logic-exercice-1-enonce.png",
-          "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png"
+          "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/sequences-logic-exercice-1-enonce.png",
+            "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png"
+          }
         },
         {
           "slug": "sequences-logic-exercice-2",
@@ -608,323 +762,19 @@ window.NAJHIN_DATA = {
           "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-enonce.pdf",
           "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-corrige.pdf",
           "statementImage": "assets/images/sequences-logic-exercice-2-enonce.png",
-          "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png"
+          "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/sequences-logic-exercice-2-enonce.png",
+            "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png"
+          }
         }
-      ]
-    }
-  ],
-  "exercises": [
-    {
-      "slug": "inequations-exercice-1",
-      "lesson": "inequations",
-      "title": "Résoudre une inéquation",
-      "statement": "2x − 3 > 5",
-      "answer": "x > 4",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/inequations-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/inequations-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/inequations-exercice-1-enonce.png",
-      "correctionImage": "assets/images/inequations-exercice-1-corrige.png"
-    },
-    {
-      "slug": "inequations-exercice-2",
-      "lesson": "inequations",
-      "title": "Équation du second degré",
-      "statement": "x² − 5x + 6 = 0",
-      "answer": "x = 2 ou x = 3",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/inequations-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/inequations-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/inequations-exercice-2-enonce.png",
-      "correctionImage": "assets/images/inequations-exercice-2-corrige.png"
-    },
-    {
-      "slug": "functions-exercice-1",
-      "lesson": "functions",
-      "title": "Image d'un nombre",
-      "statement": "f(x)=x²−2x ; calculer f(3)",
-      "answer": "f(3)=9−6=3",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/functions-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/functions-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/functions-exercice-1-enonce.png",
-      "correctionImage": "assets/images/functions-exercice-1-corrige.png"
-    },
-    {
-      "slug": "functions-exercice-2",
-      "lesson": "functions",
-      "title": "Étudier le signe",
-      "statement": "Étudier le signe de x²−4",
-      "answer": "Racines −2 et 2 ; signe positif à l'extérieur",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/functions-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/functions-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/functions-exercice-2-enonce.png",
-      "correctionImage": "assets/images/functions-exercice-2-corrige.png"
-    },
-    {
-      "slug": "geometry-exercice-1",
-      "lesson": "geometry",
-      "title": "Théorème de Pythagore",
-      "statement": "Triangle rectangle de côtés 3 et 4. Calculer l'hypoténuse.",
-      "answer": "c²=3²+4²=25 donc c=5",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/geometry-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/geometry-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/geometry-exercice-1-enonce.png",
-      "correctionImage": "assets/images/geometry-exercice-1-corrige.png"
-    },
-    {
-      "slug": "geometry-exercice-2",
-      "lesson": "geometry",
-      "title": "Distance dans le plan",
-      "statement": "A(1,2), B(4,6). Calculer AB.",
-      "answer": "AB=√((4−1)²+(6−2)²)=5",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/geometry-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/geometry-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/geometry-exercice-2-enonce.png",
-      "correctionImage": "assets/images/geometry-exercice-2-corrige.png"
-    },
-    {
-      "slug": "arithmetic-exercice-1",
-      "lesson": "arithmetic",
-      "title": "Division euclidienne",
-      "statement": "Effectuer la division de 157 par 12.",
-      "answer": "157=12×13+1",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/arithmetic-exercice-1-enonce.png",
-      "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png"
-    },
-    {
-      "slug": "arithmetic-exercice-2",
-      "lesson": "arithmetic",
-      "title": "PGCD",
-      "statement": "Déterminer PGCD(84,30).",
-      "answer": "84=2²×3×7 et 30=2×3×5 donc PGCD=6",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/arithmetic-exercice-2-enonce.png",
-      "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png"
-    },
-    {
-      "slug": "derivation-exercice-1",
-      "lesson": "derivation",
-      "title": "Calcul de dérivée",
-      "statement": "Soit f(x)=3x²−5x+2. Calculer f'(x).",
-      "answer": "f'(x)=6x−5",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/derivation-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/derivation-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/derivation-exercice-1-enonce.png",
-      "correctionImage": "assets/images/derivation-exercice-1-corrige.png"
-    },
-    {
-      "slug": "derivation-exercice-2",
-      "lesson": "derivation",
-      "title": "Équation de la tangente",
-      "statement": "Soit f(x)=x². Déterminer la tangente au point d'abscisse 1.",
-      "answer": "f(1)=1 et f'(1)=2 ; y=2(x−1)+1=2x−1",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/derivation-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/derivation-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/derivation-exercice-2-enonce.png",
-      "correctionImage": "assets/images/derivation-exercice-2-corrige.png"
-    },
-    {
-      "slug": "limits-exercice-1",
-      "lesson": "limits",
-      "title": "Calcul d'une limite",
-      "statement": "Calculer lim(x→2) (x²−4)/(x−2).",
-      "answer": "Pour x≠2, (x²−4)/(x−2)=x+2 ; la limite vaut 4.",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/limits-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/limits-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/limits-exercice-1-enonce.png",
-      "correctionImage": "assets/images/limits-exercice-1-corrige.png"
-    },
-    {
-      "slug": "limits-exercice-2",
-      "lesson": "limits",
-      "title": "Limite à l'infini",
-      "statement": "Calculer lim(x→+∞) (3x²+1)/(x²−2).",
-      "answer": "En divisant par x², la limite vaut 3.",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/limits-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/limits-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/limits-exercice-2-enonce.png",
-      "correctionImage": "assets/images/limits-exercice-2-corrige.png"
-    },
-    {
-      "slug": "sequences-exercice-1",
-      "lesson": "sequences",
-      "title": "Suite arithmétique",
-      "statement": "u₀=4 et r=3. Calculer u₅.",
-      "answer": "u₅=u₀+5r=4+15=19",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/sequences-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/sequences-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/sequences-exercice-1-enonce.png",
-      "correctionImage": "assets/images/sequences-exercice-1-corrige.png"
-    },
-    {
-      "slug": "sequences-exercice-2",
-      "lesson": "sequences",
-      "title": "Suite géométrique",
-      "statement": "v₀=2 et q=3. Calculer v₄.",
-      "answer": "v₄=v₀×q⁴=2×81=162",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/sequences-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/sequences-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/sequences-exercice-2-enonce.png",
-      "correctionImage": "assets/images/sequences-exercice-2-corrige.png"
-    },
-    {
-      "slug": "probability-exercice-1",
-      "lesson": "probability",
-      "title": "Probabilité simple",
-      "statement": "On lance un dé équilibré. Quelle est la probabilité d'obtenir 6 ?",
-      "answer": "Il y a une issue favorable sur 6 : P=1/6.",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/probability-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/probability-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/probability-exercice-1-enonce.png",
-      "correctionImage": "assets/images/probability-exercice-1-corrige.png"
-    },
-    {
-      "slug": "probability-exercice-2",
-      "lesson": "probability",
-      "title": "Événement contraire",
-      "statement": "P(A)=0,35. Calculer P(Ā).",
-      "answer": "P(Ā)=1−P(A)=0,65",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/probability-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/probability-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/probability-exercice-2-enonce.png",
-      "correctionImage": "assets/images/probability-exercice-2-corrige.png"
-    },
-    {
-      "slug": "logarithms-exercice-1",
-      "lesson": "logarithms",
-      "title": "Équation logarithmique",
-      "statement": "Résoudre ln(x)=2.",
-      "answer": "Condition x>0 ; solution x=e².",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/logarithms-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/logarithms-exercice-1-enonce.png",
-      "correctionImage": "assets/images/logarithms-exercice-1-corrige.png"
-    },
-    {
-      "slug": "logarithms-exercice-2",
-      "lesson": "logarithms",
-      "title": "Propriétés du logarithme",
-      "statement": "Simplifier ln(3)+ln(4).",
-      "answer": "ln(3)+ln(4)=ln(12)",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/logarithms-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/logarithms-exercice-2-enonce.png",
-      "correctionImage": "assets/images/logarithms-exercice-2-corrige.png"
-    },
-    {
-      "slug": "exponential-exercice-1",
-      "lesson": "exponential",
-      "title": "Équation exponentielle",
-      "statement": "Résoudre eˣ=5.",
-      "answer": "Par injectivité de exp : x=ln(5).",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/exponential-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/exponential-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/exponential-exercice-1-enonce.png",
-      "correctionImage": "assets/images/exponential-exercice-1-corrige.png"
-    },
-    {
-      "slug": "exponential-exercice-2",
-      "lesson": "exponential",
-      "title": "Dérivée exponentielle",
-      "statement": "Soit f(x)=eˣ(2x+1). Calculer f'(x).",
-      "answer": "f'(x)=eˣ(2x+1)+2eˣ=eˣ(2x+3)",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/exponential-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/exponential-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/exponential-exercice-2-enonce.png",
-      "correctionImage": "assets/images/exponential-exercice-2-corrige.png"
-    },
-    {
-      "slug": "complex-exercice-1",
-      "lesson": "complex",
-      "title": "Forme algébrique",
-      "statement": "Calculer (2+i)+(3−4i).",
-      "answer": "5−3i",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/complex-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/complex-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/complex-exercice-1-enonce.png",
-      "correctionImage": "assets/images/complex-exercice-1-corrige.png"
-    },
-    {
-      "slug": "complex-exercice-2",
-      "lesson": "complex",
-      "title": "Module d'un complexe",
-      "statement": "Calculer |z| pour z=3+4i.",
-      "answer": "|z|=√(3²+4²)=5",
-      "difficulty": "Facile",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/complex-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/complex-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/complex-exercice-2-enonce.png",
-      "correctionImage": "assets/images/complex-exercice-2-corrige.png"
-    },
-    {
-      "slug": "sequences-logic-exercice-1",
-      "lesson": "sequences-logic",
-      "title": "Récurrence",
-      "statement": "On considère u₀=1 et uₙ₊₁=uₙ+2. Conjecturer uₙ.",
-      "answer": "uₙ=1+2n (à démontrer par récurrence).",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-corrige.pdf",
-      "statementImage": "assets/images/sequences-logic-exercice-1-enonce.png",
-      "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png"
-    },
-    {
-      "slug": "sequences-logic-exercice-2",
-      "lesson": "sequences-logic",
-      "title": "Quantificateurs",
-      "statement": "Écrire : tout réel positif possède une racine carrée réelle.",
-      "answer": "∀x∈ℝ, x≥0 ⇒ ∃y∈ℝ tel que y²=x.",
-      "difficulty": "Moyen",
-      "sample": true,
-      "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-enonce.pdf",
-      "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-corrige.pdf",
-      "statementImage": "assets/images/sequences-logic-exercice-2-enonce.png",
-      "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png"
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/sequences-logic.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
     }
   ],
   "devoirs": [
@@ -934,9 +784,10 @@ window.NAJHIN_DATA = {
       "level": "tronc",
       "track": "Sciences",
       "date": "Exemple de démonstration",
-      "sample": true,
-      "statement": "assets/pdfs/devoirs/devoir-tc-demo.pdf",
-      "correction": "assets/pdfs/devoirs/devoir-tc-demo-corrige.pdf"
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-tc-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-tc-demo-corrige.pdf"
+      }
     },
     {
       "slug": "devoir-1bac-demo",
@@ -944,9 +795,10 @@ window.NAJHIN_DATA = {
       "level": "1bac",
       "track": "Sciences Expérimentales",
       "date": "Exemple de démonstration",
-      "sample": true,
-      "statement": "assets/pdfs/devoirs/devoir-1bac-demo.pdf",
-      "correction": "assets/pdfs/devoirs/devoir-1bac-demo-corrige.pdf"
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-1bac-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-1bac-demo-corrige.pdf"
+      }
     },
     {
       "slug": "devoir-2bac-demo",
@@ -954,9 +806,10 @@ window.NAJHIN_DATA = {
       "level": "2bac",
       "track": "Sciences Physiques",
       "date": "Exemple de démonstration",
-      "sample": true,
-      "statement": "assets/pdfs/devoirs/devoir-2bac-demo.pdf",
-      "correction": "assets/pdfs/devoirs/devoir-2bac-demo-corrige.pdf"
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-2bac-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-2bac-demo-corrige.pdf"
+      }
     }
   ],
   "exams": [
@@ -967,28 +820,35 @@ window.NAJHIN_DATA = {
       "title": "Examen National 2024 — Session normale",
       "level": "2ème Bac",
       "track": "Sciences Mathématiques",
-      "sample": true,
-      "full": "assets/pdfs/examens/national-2024-normale.pdf",
       "exercises": [
         {
           "title": "Exercice 1 — Suites numériques",
           "topic": "Suites numériques",
-          "statement": "assets/pdfs/examens/national-2024-normale-ex1.pdf",
-          "correction": "assets/pdfs/examens/national-2024-normale-ex1-corrige.pdf"
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex1.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex1-corrige.pdf"
+          }
         },
         {
           "title": "Exercice 2 — Nombres complexes",
           "topic": "Nombres complexes",
-          "statement": "assets/pdfs/examens/national-2024-normale-ex2.pdf",
-          "correction": "assets/pdfs/examens/national-2024-normale-ex2-corrige.pdf"
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex2.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex2-corrige.pdf"
+          }
         },
         {
           "title": "Exercice 3 — Fonction exponentielle",
           "topic": "Fonction exponentielle",
-          "statement": "assets/pdfs/examens/national-2024-normale-ex3.pdf",
-          "correction": "assets/pdfs/examens/national-2024-normale-ex3-corrige.pdf"
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex3.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex3-corrige.pdf"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "fullPdf": "assets/pdfs/examens/national-2024-normale.pdf"
+      }
     },
     {
       "slug": "national-2024-rattrapage",
@@ -997,22 +857,27 @@ window.NAJHIN_DATA = {
       "title": "Examen National 2024 — Session de rattrapage",
       "level": "2ème Bac",
       "track": "Sciences Mathématiques",
-      "sample": true,
-      "full": "assets/pdfs/examens/national-2024-rattrapage.pdf",
       "exercises": [
         {
           "title": "Exercice 1 — Limites et continuité",
           "topic": "Limites et continuité",
-          "statement": "assets/pdfs/examens/national-2024-rattrapage-ex1.pdf",
-          "correction": "assets/pdfs/examens/national-2024-rattrapage-ex1-corrige.pdf"
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-rattrapage-ex1.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-rattrapage-ex1-corrige.pdf"
+          }
         },
         {
           "title": "Exercice 2 — Dérivation",
           "topic": "Dérivation",
-          "statement": "assets/pdfs/examens/national-2024-rattrapage-ex2.pdf",
-          "correction": "assets/pdfs/examens/national-2024-rattrapage-ex2-corrige.pdf"
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-rattrapage-ex2.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-rattrapage-ex2-corrige.pdf"
+          }
         }
-      ]
+      ],
+      "resources": {
+        "fullPdf": "assets/pdfs/examens/national-2024-rattrapage.pdf"
+      }
     }
   ]
-};
+}

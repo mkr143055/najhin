@@ -1,0 +1,883 @@
+{
+  "site": {
+    "name": "Najhin.ma",
+    "tagline": "Apprendre · Pratiquer · Réussir",
+    "language": "fr",
+    "description": "Ressources de mathématiques pour le lycée qualifiant au Maroc.",
+    "logo": "assets/images/logo.png",
+    "accent": "#08b86a"
+  },
+  "levels": [
+    {
+      "id": "tronc",
+      "slug": "tronc-commun",
+      "name": "Tronc Commun",
+      "short": "TC",
+      "description": "Les notions fondamentales pour construire des bases solides en mathématiques.",
+      "tracks": [
+        "Sciences",
+        "Lettres et Sciences Humaines"
+      ],
+      "color": "mint"
+    },
+    {
+      "id": "1bac",
+      "slug": "1ere-bac",
+      "name": "1ère Bac",
+      "short": "1BAC",
+      "description": "Approfondissez les méthodes et préparez progressivement les évaluations.",
+      "tracks": [
+        "Sciences Expérimentales",
+        "Sciences Mathématiques",
+        "Sciences Économiques"
+      ],
+      "color": "coral"
+    },
+    {
+      "id": "2bac",
+      "slug": "2eme-bac",
+      "name": "2ème Bac",
+      "short": "2BAC",
+      "description": "Consolidez vos acquis et entraînez-vous pour les examens du Baccalauréat.",
+      "tracks": [
+        "Sciences Mathématiques",
+        "Sciences Physiques",
+        "Sciences de la Vie et de la Terre"
+      ],
+      "color": "dark"
+    }
+  ],
+  "lessons": [
+    {
+      "slug": "inequations",
+      "title": "Inéquations et Équations",
+      "description": "Étude des inéquations et des équations dans l'ensemble des nombres réels.",
+      "level": "tronc",
+      "levelName": "Tronc Commun",
+      "tracks": [
+        "Sciences",
+        "Lettres et Sciences Humaines"
+      ],
+      "topics": [
+        "Inéquations linéaires",
+        "Équations quadratiques",
+        "Discussion des solutions"
+      ],
+      "exercises": [
+        {
+          "slug": "inequations-exercice-1",
+          "lesson": "inequations",
+          "title": "Résoudre une inéquation",
+          "statement": "2x − 3 > 5",
+          "answer": "x > 4",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/inequations-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/inequations-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/inequations-exercice-1-enonce.png",
+          "correctionImage": "assets/images/inequations-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/inequations-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/inequations-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/inequations-exercice-1-enonce.png",
+            "correctionImage": "assets/images/inequations-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "inequations-exercice-2",
+          "lesson": "inequations",
+          "title": "Équation du second degré",
+          "statement": "x² − 5x + 6 = 0",
+          "answer": "x = 2 ou x = 3",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/inequations-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/inequations-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/inequations-exercice-2-enonce.png",
+          "correctionImage": "assets/images/inequations-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/inequations-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/inequations-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/inequations-exercice-2-enonce.png",
+            "correctionImage": "assets/images/inequations-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/inequations.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "functions",
+      "title": "Fonctions de Référence",
+      "description": "Exploration des fonctions de base : fonction quadratique, racine carrée et fonction inverse.",
+      "level": "tronc",
+      "levelName": "Tronc Commun",
+      "tracks": [
+        "Sciences",
+        "Lettres et Sciences Humaines"
+      ],
+      "topics": [
+        "Fonction quadratique",
+        "Fonction racine carrée",
+        "Représentation graphique"
+      ],
+      "exercises": [
+        {
+          "slug": "functions-exercice-1",
+          "lesson": "functions",
+          "title": "Image d'un nombre",
+          "statement": "f(x)=x²−2x ; calculer f(3)",
+          "answer": "f(3)=9−6=3",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/functions-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/functions-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/functions-exercice-1-enonce.png",
+          "correctionImage": "assets/images/functions-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/functions-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/functions-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/functions-exercice-1-enonce.png",
+            "correctionImage": "assets/images/functions-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "functions-exercice-2",
+          "lesson": "functions",
+          "title": "Étudier le signe",
+          "statement": "Étudier le signe de x²−4",
+          "answer": "Racines −2 et 2 ; signe positif à l'extérieur",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/functions-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/functions-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/functions-exercice-2-enonce.png",
+          "correctionImage": "assets/images/functions-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/functions-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/functions-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/functions-exercice-2-enonce.png",
+            "correctionImage": "assets/images/functions-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/functions.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "geometry",
+      "title": "Géométrie Plane",
+      "description": "Principes de géométrie plane : triangles, cercles, parallélisme et perpendicularité.",
+      "level": "tronc",
+      "levelName": "Tronc Commun",
+      "tracks": [
+        "Sciences",
+        "Lettres et Sciences Humaines"
+      ],
+      "topics": [
+        "Théorème de Pythagore",
+        "Transformations géométriques",
+        "Symétrie axiale"
+      ],
+      "exercises": [
+        {
+          "slug": "geometry-exercice-1",
+          "lesson": "geometry",
+          "title": "Théorème de Pythagore",
+          "statement": "Triangle rectangle de côtés 3 et 4. Calculer l'hypoténuse.",
+          "answer": "c²=3²+4²=25 donc c=5",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/geometry-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/geometry-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/geometry-exercice-1-enonce.png",
+          "correctionImage": "assets/images/geometry-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/geometry-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/geometry-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/geometry-exercice-1-enonce.png",
+            "correctionImage": "assets/images/geometry-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "geometry-exercice-2",
+          "lesson": "geometry",
+          "title": "Distance dans le plan",
+          "statement": "A(1,2), B(4,6). Calculer AB.",
+          "answer": "AB=√((4−1)²+(6−2)²)=5",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/geometry-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/geometry-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/geometry-exercice-2-enonce.png",
+          "correctionImage": "assets/images/geometry-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/geometry-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/geometry-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/geometry-exercice-2-enonce.png",
+            "correctionImage": "assets/images/geometry-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/geometry.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "arithmetic",
+      "title": "Arithmétique",
+      "description": "Fondamentaux de l'arithmétique : division euclidienne, nombres premiers, PGCD et PPCM.",
+      "level": "tronc",
+      "levelName": "Tronc Commun",
+      "tracks": [
+        "Sciences",
+        "Lettres et Sciences Humaines"
+      ],
+      "topics": [
+        "Division euclidienne",
+        "Nombres premiers",
+        "PGCD et PPCM"
+      ],
+      "exercises": [
+        {
+          "slug": "arithmetic-exercice-1",
+          "lesson": "arithmetic",
+          "title": "Division euclidienne",
+          "statement": "Effectuer la division de 157 par 12.",
+          "answer": "157=12×13+1",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/arithmetic-exercice-1-enonce.png",
+          "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/arithmetic-exercice-1-enonce.png",
+            "correctionImage": "assets/images/arithmetic-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "arithmetic-exercice-2",
+          "lesson": "arithmetic",
+          "title": "PGCD",
+          "statement": "Déterminer PGCD(84,30).",
+          "answer": "84=2²×3×7 et 30=2×3×5 donc PGCD=6",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/arithmetic-exercice-2-enonce.png",
+          "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/arithmetic-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/arithmetic-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/arithmetic-exercice-2-enonce.png",
+            "correctionImage": "assets/images/arithmetic-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/arithmetic.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "derivation",
+      "title": "Dérivation",
+      "description": "Concept de dérivation et ses applications : règles de dérivation et fonctions composées.",
+      "level": "1bac",
+      "levelName": "1ère Bac",
+      "tracks": [
+        "Sciences Expérimentales",
+        "Sciences Mathématiques",
+        "Sciences Économiques"
+      ],
+      "topics": [
+        "Définition de la dérivée",
+        "Règles de dérivation",
+        "Étude complète"
+      ],
+      "exercises": [
+        {
+          "slug": "derivation-exercice-1",
+          "lesson": "derivation",
+          "title": "Calcul de dérivée",
+          "statement": "Soit f(x)=3x²−5x+2. Calculer f'(x).",
+          "answer": "f'(x)=6x−5",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/derivation-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/derivation-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/derivation-exercice-1-enonce.png",
+          "correctionImage": "assets/images/derivation-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/derivation-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/derivation-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/derivation-exercice-1-enonce.png",
+            "correctionImage": "assets/images/derivation-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "derivation-exercice-2",
+          "lesson": "derivation",
+          "title": "Équation de la tangente",
+          "statement": "Soit f(x)=x². Déterminer la tangente au point d'abscisse 1.",
+          "answer": "f(1)=1 et f'(1)=2 ; y=2(x−1)+1=2x−1",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/derivation-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/derivation-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/derivation-exercice-2-enonce.png",
+          "correctionImage": "assets/images/derivation-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/derivation-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/derivation-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/derivation-exercice-2-enonce.png",
+            "correctionImage": "assets/images/derivation-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/derivation.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "limits",
+      "title": "Limites",
+      "description": "Calcul des limites, limites à l'infini et continuité des fonctions.",
+      "level": "1bac",
+      "levelName": "1ère Bac",
+      "tracks": [
+        "Sciences Expérimentales",
+        "Sciences Mathématiques",
+        "Sciences Économiques"
+      ],
+      "topics": [
+        "Limites finies",
+        "Limites infinies",
+        "Continuité"
+      ],
+      "exercises": [
+        {
+          "slug": "limits-exercice-1",
+          "lesson": "limits",
+          "title": "Calcul d'une limite",
+          "statement": "Calculer lim(x→2) (x²−4)/(x−2).",
+          "answer": "Pour x≠2, (x²−4)/(x−2)=x+2 ; la limite vaut 4.",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/limits-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/limits-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/limits-exercice-1-enonce.png",
+          "correctionImage": "assets/images/limits-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/limits-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/limits-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/limits-exercice-1-enonce.png",
+            "correctionImage": "assets/images/limits-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "limits-exercice-2",
+          "lesson": "limits",
+          "title": "Limite à l'infini",
+          "statement": "Calculer lim(x→+∞) (3x²+1)/(x²−2).",
+          "answer": "En divisant par x², la limite vaut 3.",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/limits-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/limits-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/limits-exercice-2-enonce.png",
+          "correctionImage": "assets/images/limits-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/limits-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/limits-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/limits-exercice-2-enonce.png",
+            "correctionImage": "assets/images/limits-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/limits.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "sequences",
+      "title": "Suites Numériques",
+      "description": "Étude des suites arithmétiques et géométriques : définition, propriétés et applications.",
+      "level": "1bac",
+      "levelName": "1ère Bac",
+      "tracks": [
+        "Sciences Expérimentales",
+        "Sciences Mathématiques",
+        "Sciences Économiques"
+      ],
+      "topics": [
+        "Suites arithmétiques",
+        "Suites géométriques",
+        "Termes des suites"
+      ],
+      "exercises": [
+        {
+          "slug": "sequences-exercice-1",
+          "lesson": "sequences",
+          "title": "Suite arithmétique",
+          "statement": "u₀=4 et r=3. Calculer u₅.",
+          "answer": "u₅=u₀+5r=4+15=19",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/sequences-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/sequences-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/sequences-exercice-1-enonce.png",
+          "correctionImage": "assets/images/sequences-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/sequences-exercice-1-enonce.png",
+            "correctionImage": "assets/images/sequences-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "sequences-exercice-2",
+          "lesson": "sequences",
+          "title": "Suite géométrique",
+          "statement": "v₀=2 et q=3. Calculer v₄.",
+          "answer": "v₄=v₀×q⁴=2×81=162",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/sequences-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/sequences-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/sequences-exercice-2-enonce.png",
+          "correctionImage": "assets/images/sequences-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/sequences-exercice-2-enonce.png",
+            "correctionImage": "assets/images/sequences-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/sequences.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "probability",
+      "title": "Probabilités",
+      "description": "Introduction à la théorie des probabilités : espace probabilisé, règles de calcul et probabilité conditionnelle.",
+      "level": "1bac",
+      "levelName": "1ère Bac",
+      "tracks": [
+        "Sciences Expérimentales",
+        "Sciences Mathématiques",
+        "Sciences Économiques"
+      ],
+      "topics": [
+        "Espace probabilisé",
+        "Probabilité conditionnelle",
+        "Indépendance"
+      ],
+      "exercises": [
+        {
+          "slug": "probability-exercice-1",
+          "lesson": "probability",
+          "title": "Probabilité simple",
+          "statement": "On lance un dé équilibré. Quelle est la probabilité d'obtenir 6 ?",
+          "answer": "Il y a une issue favorable sur 6 : P=1/6.",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/probability-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/probability-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/probability-exercice-1-enonce.png",
+          "correctionImage": "assets/images/probability-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/probability-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/probability-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/probability-exercice-1-enonce.png",
+            "correctionImage": "assets/images/probability-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "probability-exercice-2",
+          "lesson": "probability",
+          "title": "Événement contraire",
+          "statement": "P(A)=0,35. Calculer P(Ā).",
+          "answer": "P(Ā)=1−P(A)=0,65",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/probability-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/probability-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/probability-exercice-2-enonce.png",
+          "correctionImage": "assets/images/probability-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/probability-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/probability-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/probability-exercice-2-enonce.png",
+            "correctionImage": "assets/images/probability-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/probability.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "logarithms",
+      "title": "Fonction Logarithme",
+      "description": "Étude de la fonction logarithme népérien et de ses propriétés.",
+      "level": "2bac",
+      "levelName": "2ème Bac",
+      "tracks": [
+        "Sciences Mathématiques",
+        "Sciences Physiques",
+        "Sciences de la Vie et de la Terre"
+      ],
+      "topics": [
+        "Définition et propriétés",
+        "Équations logarithmiques",
+        "Inéquations logarithmiques"
+      ],
+      "exercises": [
+        {
+          "slug": "logarithms-exercice-1",
+          "lesson": "logarithms",
+          "title": "Équation logarithmique",
+          "statement": "Résoudre ln(x)=2.",
+          "answer": "Condition x>0 ; solution x=e².",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/logarithms-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/logarithms-exercice-1-enonce.png",
+          "correctionImage": "assets/images/logarithms-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/logarithms-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/logarithms-exercice-1-enonce.png",
+            "correctionImage": "assets/images/logarithms-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "logarithms-exercice-2",
+          "lesson": "logarithms",
+          "title": "Propriétés du logarithme",
+          "statement": "Simplifier ln(3)+ln(4).",
+          "answer": "ln(3)+ln(4)=ln(12)",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/logarithms-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/logarithms-exercice-2-enonce.png",
+          "correctionImage": "assets/images/logarithms-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/logarithms-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/logarithms-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/logarithms-exercice-2-enonce.png",
+            "correctionImage": "assets/images/logarithms-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/logarithms.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "exponential",
+      "title": "Fonction Exponentielle",
+      "description": "Étude de la fonction exponentielle et de ses applications.",
+      "level": "2bac",
+      "levelName": "2ème Bac",
+      "tracks": [
+        "Sciences Mathématiques",
+        "Sciences Physiques",
+        "Sciences de la Vie et de la Terre"
+      ],
+      "topics": [
+        "Définition et propriétés",
+        "Équations exponentielles",
+        "Croissances comparées"
+      ],
+      "exercises": [
+        {
+          "slug": "exponential-exercice-1",
+          "lesson": "exponential",
+          "title": "Équation exponentielle",
+          "statement": "Résoudre eˣ=5.",
+          "answer": "Par injectivité de exp : x=ln(5).",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/exponential-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/exponential-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/exponential-exercice-1-enonce.png",
+          "correctionImage": "assets/images/exponential-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/exponential-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/exponential-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/exponential-exercice-1-enonce.png",
+            "correctionImage": "assets/images/exponential-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "exponential-exercice-2",
+          "lesson": "exponential",
+          "title": "Dérivée exponentielle",
+          "statement": "Soit f(x)=eˣ(2x+1). Calculer f'(x).",
+          "answer": "f'(x)=eˣ(2x+1)+2eˣ=eˣ(2x+3)",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/exponential-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/exponential-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/exponential-exercice-2-enonce.png",
+          "correctionImage": "assets/images/exponential-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/exponential-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/exponential-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/exponential-exercice-2-enonce.png",
+            "correctionImage": "assets/images/exponential-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/exponential.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "complex",
+      "title": "Nombres Complexes",
+      "description": "Introduction aux nombres complexes, formes algébrique et trigonométrique.",
+      "level": "2bac",
+      "levelName": "2ème Bac",
+      "tracks": [
+        "Sciences Mathématiques",
+        "Sciences Physiques",
+        "Sciences de la Vie et de la Terre"
+      ],
+      "topics": [
+        "Forme algébrique",
+        "Forme trigonométrique",
+        "Représentation géométrique"
+      ],
+      "exercises": [
+        {
+          "slug": "complex-exercice-1",
+          "lesson": "complex",
+          "title": "Forme algébrique",
+          "statement": "Calculer (2+i)+(3−4i).",
+          "answer": "5−3i",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/complex-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/complex-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/complex-exercice-1-enonce.png",
+          "correctionImage": "assets/images/complex-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/complex-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/complex-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/complex-exercice-1-enonce.png",
+            "correctionImage": "assets/images/complex-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "complex-exercice-2",
+          "lesson": "complex",
+          "title": "Module d'un complexe",
+          "statement": "Calculer |z| pour z=3+4i.",
+          "answer": "|z|=√(3²+4²)=5",
+          "difficulty": "Facile",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/complex-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/complex-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/complex-exercice-2-enonce.png",
+          "correctionImage": "assets/images/complex-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/complex-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/complex-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/complex-exercice-2-enonce.png",
+            "correctionImage": "assets/images/complex-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/complex.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    },
+    {
+      "slug": "sequences-logic",
+      "title": "Suites et Logique",
+      "description": "Étude des suites numériques et notions de logique mathématique.",
+      "level": "2bac",
+      "levelName": "2ème Bac",
+      "tracks": [
+        "Sciences Mathématiques",
+        "Sciences Physiques",
+        "Sciences de la Vie et de la Terre"
+      ],
+      "topics": [
+        "Suites convergentes",
+        "Raisonnement par récurrence",
+        "Quantificateurs"
+      ],
+      "exercises": [
+        {
+          "slug": "sequences-logic-exercice-1",
+          "lesson": "sequences-logic",
+          "title": "Récurrence",
+          "statement": "On considère u₀=1 et uₙ₊₁=uₙ+2. Conjecturer uₙ.",
+          "answer": "uₙ=1+2n (à démontrer par récurrence).",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-corrige.pdf",
+          "statementImage": "assets/images/sequences-logic-exercice-1-enonce.png",
+          "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-1-corrige.pdf",
+            "statementImage": "assets/images/sequences-logic-exercice-1-enonce.png",
+            "correctionImage": "assets/images/sequences-logic-exercice-1-corrige.png"
+          }
+        },
+        {
+          "slug": "sequences-logic-exercice-2",
+          "lesson": "sequences-logic",
+          "title": "Quantificateurs",
+          "statement": "Écrire : tout réel positif possède une racine carrée réelle.",
+          "answer": "∀x∈ℝ, x≥0 ⇒ ∃y∈ℝ tel que y²=x.",
+          "difficulty": "Moyen",
+          "sample": true,
+          "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-enonce.pdf",
+          "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-corrige.pdf",
+          "statementImage": "assets/images/sequences-logic-exercice-2-enonce.png",
+          "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png",
+          "resources": {
+            "statementPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-enonce.pdf",
+            "correctionPdf": "assets/pdfs/exercices/sequences-logic-exercice-2-corrige.pdf",
+            "statementImage": "assets/images/sequences-logic-exercice-2-enonce.png",
+            "correctionImage": "assets/images/sequences-logic-exercice-2-corrige.png"
+          }
+        }
+      ],
+      "resources": {
+        "coursePdf": "assets/pdfs/cours/sequences-logic.pdf",
+        "video": "assets/videos/cours-demo.mp4"
+      }
+    }
+  ],
+  "devoirs": [
+    {
+      "slug": "devoir-tc-demo",
+      "title": "Devoir surveillé — Tronc Commun",
+      "level": "tronc",
+      "track": "Sciences",
+      "date": "Exemple de démonstration",
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-tc-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-tc-demo-corrige.pdf"
+      }
+    },
+    {
+      "slug": "devoir-1bac-demo",
+      "title": "Devoir surveillé — 1ère Bac",
+      "level": "1bac",
+      "track": "Sciences Expérimentales",
+      "date": "Exemple de démonstration",
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-1bac-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-1bac-demo-corrige.pdf"
+      }
+    },
+    {
+      "slug": "devoir-2bac-demo",
+      "title": "Devoir surveillé — 2ème Bac",
+      "level": "2bac",
+      "track": "Sciences Physiques",
+      "date": "Exemple de démonstration",
+      "resources": {
+        "statementPdf": "assets/pdfs/devoirs/devoir-2bac-demo.pdf",
+        "correctionPdf": "assets/pdfs/devoirs/devoir-2bac-demo-corrige.pdf"
+      }
+    }
+  ],
+  "exams": [
+    {
+      "slug": "national-2024-normale",
+      "year": "2024",
+      "session": "Session normale",
+      "title": "Examen National 2024 — Session normale",
+      "level": "2ème Bac",
+      "track": "Sciences Mathématiques",
+      "exercises": [
+        {
+          "title": "Exercice 1 — Suites numériques",
+          "topic": "Suites numériques",
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex1.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex1-corrige.pdf"
+          }
+        },
+        {
+          "title": "Exercice 2 — Nombres complexes",
+          "topic": "Nombres complexes",
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex2.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex2-corrige.pdf"
+          }
+        },
+        {
+          "title": "Exercice 3 — Fonction exponentielle",
+          "topic": "Fonction exponentielle",
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-normale-ex3.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-normale-ex3-corrige.pdf"
+          }
+        }
+      ],
+      "resources": {
+        "fullPdf": "assets/pdfs/examens/national-2024-normale.pdf"
+      }
+    },
+    {
+      "slug": "national-2024-rattrapage",
+      "year": "2024",
+      "session": "Session de rattrapage",
+      "title": "Examen National 2024 — Session de rattrapage",
+      "level": "2ème Bac",
+      "track": "Sciences Mathématiques",
+      "exercises": [
+        {
+          "title": "Exercice 1 — Limites et continuité",
+          "topic": "Limites et continuité",
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-rattrapage-ex1.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-rattrapage-ex1-corrige.pdf"
+          }
+        },
+        {
+          "title": "Exercice 2 — Dérivation",
+          "topic": "Dérivation",
+          "resources": {
+            "statementPdf": "assets/pdfs/examens/national-2024-rattrapage-ex2.pdf",
+            "correctionPdf": "assets/pdfs/examens/national-2024-rattrapage-ex2-corrige.pdf"
+          }
+        }
+      ],
+      "resources": {
+        "fullPdf": "assets/pdfs/examens/national-2024-rattrapage.pdf"
+      }
+    }
+  ]
+}
